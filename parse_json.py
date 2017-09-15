@@ -41,4 +41,4 @@ def jsonl_to_json(data_loc, result_file_name='no_nesting_json.json'):
 
 
 if __name__ == '__main__':
-    jsonl_to_json('./201702/data/ida_wrangling_exercise_data.2017-02-13.jsonl')
+    jsonl_to_json('input.jsonl')
